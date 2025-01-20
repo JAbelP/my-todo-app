@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes: # Volumes are defined WITHIN the service
+      - ./src:/app/src
+      - ./public:/app/public
+      - /app/node_modules 

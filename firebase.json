@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "public": "dist",
+    "ignore": ["firebase.json", "**/node_modules/**/*"]
+  },
+  "emulators": {
+    "database": {
+      "port": 9000,
+      "rules": {
+        ".read": "origin == 'http://localhost:3000'",
+        ".write": "origin == 'http://localhost:3000'"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+17:22:42.687 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17:22:42.922 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+17:24:03.507 [NamespaceSystem-akka.actor.default-dispatcher-9] INFO com.firebase.core.namespace.NamespaceActor - todo-react-project-9b630 successfully activated FBKV (SurveyIdle(0)) wait: 775ms, init: 0ms
+17:48:03.052 [FirebaseWorkerPool-1-3] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested 
+namespace todo-react-project-9b630-default-rtdb, but the emulator is configured for todo-react-project-9b630. To 
+opt-out of single project mode add/set the singleProjectMode: false property in 
+the firebase.json emulators config. 
+17:48:03.064 [NamespaceSystem-akka.actor.default-dispatcher-22] INFO com.firebase.core.namespace.NamespaceActor - todo-react-project-9b630-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 4ms, init: 0ms

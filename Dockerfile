@@ -18,19 +18,3 @@ EXPOSE 3000
 
 # Start the development server
 CMD ["npm", "start"]
-
-
-# # Build the app for production
-# RUN npm run build
-
-# # Use a smaller image for serving the static files
-# FROM nginx:alpine
-
-# # Copy the built app from the previous stage
-# COPY --from=0 /app/build /usr/share/nginx/html
-
-# # Expose port 80
-# EXPOSE 80
-
-# # Start nginx
-# CMD ["nginx", "-g", "daemon off;"]
