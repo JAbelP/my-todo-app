@@ -82,7 +82,7 @@ This project is a simple yet functional to-do application built with React, Mate
 
    ```bash
    docker run -p 3000:3000 -v //$(pwd):/app my-todo-app-dev
-
+```
     **PowerShell:**
 
     ```powershell
